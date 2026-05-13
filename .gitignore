@@ -1,23 +1,51 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
+# Unity generierte Ordner (MÜSSEN ignoriert werden)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Speicher- und Aufnahme-Dumps (können gigantisch werden)
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Autogenerierte IDE- und Projektdateien (Visual Studio, Rider etc.)
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generierte Meta-Dateien für ignorierte Dateien
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash-Reports
+sysinfo.txt
+crashlytics-build.properties
+
+# Gebaute Applikationen / Builds (sollten nicht ins Repo)
+*.apk
+*.aab
+*.unitypackage
 *.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+
+# Plugins (optional, bei Bedarf auskommentieren)
+# /[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
